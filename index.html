@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar">
+        <div class="logo">A.S | <span class="neon-text">Developer</span></div> <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-content ">
+            <p class="greeting fade-left">Hello, I'm</p>
+            <h1 class="fade-in-up">Abdul Samad</h1>
+            <h2 class="typing-text fade-in-up">A Passionate <span class="neon-text">Web Developer</span></h2>
+            <p class="description fade-in-up"> I build responsive, modern, and high-performance web applications using
+                the latest front-end technologies. </p>
+            <div class="home-buttons fade-in-up"> <a href="https://wa.me/923223110488" target="_blank"
+                    class="btn primary-btn">HIRE ME</a>
+            </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+        <div class="container about-container">
+            <div class="about-image fade-in-up"> <img src="assets/new picture.png" alt="Abdul Samad"> </div>
+            <div class="about-text fade-left">
+                <h2 class="section-title fade-in-up">About Me</h2>
+                <h3>Creative, Dedicated, <span class="neon-text">Solution-Oriented</span></h3>
+                <!-- Dynamic paragraphs -->
+                <div id="aboutDescContainer">
+                    <p>I'm Abdul Samad, a Front-End Web Developer with a focus on crafting immersive and responsive user
+                        experiences. I thrive on transforming complex requirements into clean, efficient code and
+                        aesthetically pleasing interfaces.
+                    </p>
+                    <p>
+                        My expertise lies in the modern stack: HTML5, CSS3, JavaScript (ES6+), and React.js. I am
+                        constantly learning new frameworks and tools to deliver cutting-edge digital solutions.
+                    </p>
+                </div>
+                <a href="#projects" class="btn primary-btn fade-in-up">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+        <h2 class="section-title fade-in-up">My Skills</h2>
+        <p class="section-subtitle fade-in-up">Technologies & Tools I Work With</p>
+        <div class="container skills-container-bar fade-left">
+            <div class="skill-bar-item fade-in-up" data-progress="95">
+                <div class="skill-info"> <span class="skill-name">HTML</span> <span class="skill-percentage">0%</span>
+                </div>
+                <div class="progress-bar-background">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+            <div class="skill-bar-item fade-in-up" data-progress="90">
+                <div class="skill-info"> <span class="skill-name">CSS</span> <span class="skill-percentage">0%</span>
+                </div>
+                <div class="progress-bar-background">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+            <div class="skill-bar-item fade-in-up" data-progress="90">
+                <div class="skill-info"> <span class="skill-name">Bootstrap</span> <span
+                        class="skill-percentage">0%</span> </div>
+                <div class="progress-bar-background">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+            <div class="skill-bar-item fade-in-up" data-progress="60">
+                <div class="skill-info"> <span class="skill-name">JavaScript</span> <span
+                        class="skill-percentage">0%</span> </div>
+                <div class="progress-bar-background">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+            <div class="skill-bar-item fade-in-up" data-progress="80">
+                <div class="skill-info"> <span class="skill-name">React.js</span> <span class="skill-percentage">0%</span>
+                </div>
+                <div class="progress-bar-background">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+            <div class="skill-bar-item fade-in-up" data-progress="70">
+                <div class="skill-info"> <span class="skill-name">Tailwind CSS</span> <span class="skill-percentage">0%</span>
+                </div>
+                <div class="progress-bar-background">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+        <h2 class="section-title">My Services</h2>
+        <p class="section-subtitle">What I Offer to Clients</p>
+        <div class="services-container">
+            <div class="service-box fade-in-up"> <i class="fas fa-laptop-code icon"></i>
+                <h3>Custom Web Development</h3>
+                <p>Building fully customized, high-quality, and scalable websites from scratch using modern best
+                    practices.</p>
+            </div>
+            <div class="service-box fade-in-up delay-200"> <i class="fas fa-mobile-alt icon"></i>
+                <h3>Fully Responsive Design</h3>
+                <p>Ensuring your website looks flawless and functions perfectly on all devices: phones, tablets, and
+                    desktops.</p>
+            </div>
+            <div class="service-box fade-in-up delay-400"> <i class="fas fa-palette icon"></i>
+                <h3>Frontend UI/UX</h3>
+                <p>Crafting intuitive and engaging user interfaces focused on usability, accessibility and modern
+                    aesthetics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+        <h2 class="section-title">Recent Projects</h2>
+        <p class="section-subtitle">A Showcase of My Front-End Work</p>
+        <div class="projects-container" id="projectsContainer">
+            <div class="project-card fade-in-up "> <img src="assets/project-1.png" alt="Marketing Agency Website">
+                <div class="project-content">
+                    <h1>Marketing Agency Website</h1>
+                    <p>HTML, CSS, JavaScript</p>
+                    <div class="project-links"> <a
+                            href="https://samadmemon930.github.io/Inno-Hub-Marketing-Agency-Website/" target="_blank"><i
+                                class="fas fa-external-link-alt"></i> View Project </a> </div>
+                </div>
+            </div>
+            <div class="project-card fade-in-up delay-200"> <img src="assets/project-2.png" alt="Motorcycle Dealership">
+                <div class="project-content">
+                    <h1>Motorcycle Dealership Website</h1>
+                    <p>HTML, CSS, Bootstrap, JavaScript</p>
+                    <div class="project-links"> <a href="https://samadmemon930.github.io/Motorcycle-Dealership-Website/"
+                            target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a> </div>
+                </div>
+            </div>
+            <div class="project-card fade-in-up delay-400"> <img src="assets/project-3.png" alt="Portfolio Website">
+                <div class="project-content">
+                    <h1>KeannuFord Portfolio Website</h1>
+                    <p>HTML, CSS, Bootstrap, JavaScript</p>
+                    <div class="project-links"> <a href="https://samadmemon930.github.io/Keannu-Ford-Portfolio-Website/"
+                            target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a> </div>
+                </div>
+            </div>
+            <div class="project-card fade-in-up delay-400"> <img src="assets/project-4.png" alt="Edusity Website">
+                <div class="project-content">
+                    <h1>Edusity Education Website</h1>
+                    <p>React.js JavaScript</p>
+                    <div class="project-links"> <a href="https://edusity-education-website.vercel.app/"
+                            target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+        <h2 class="section-title fade-in-up">Get In Touch</h2>
+        <p class="section-subtitle fade-in-up">Let's Discuss Your Next Project</p>
+        <div class="contact-container">
+            <div class="contact-info ">
+                <h3>Contact Information</h3>
+                <p>I am currently open to new opportunities. Feel free to reach out via email or phone.</p>
+                <div class="info-group"> <i class="fas fa-envelope neon-text"></i> <span>Email:</span>
+                    samadab1579@gmail.com </div>
+                <div class="info-group"> <i class="fas fa-phone neon-text"></i> <span>Phone:</span> +92 322 3110488
+                </div>
+                <div class="info-group"> <i class="fas fa-map-marker-alt neon-text"></i> <span>Location:</span>
+                    Pakistan, Hyderabad </div>
+                <div class="social-icons fade-in-up"> <a href="https://web.facebook.com/abdul.samad.598057"
+                        target="_blank"><i class="fa-brands fa-facebook-f"></i></a> <a href="https://wa.me/923223110488"
+                        target="_blank"><i class="fab fa-whatsapp"></i></a> <a href="https://github.com/samadmemon930"
+                        target="_blank"><i class="fab fa-github"></i></a> <a
+                        href="https://www.linkedin.com/in/abdul-samad-4b175236b?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i
+                            class="fab fa-linkedin-in"></i></a> </div>
+            </div>
+            <div class="contact-form ">
+                <form> <input type="text" name="name" placeholder="Your Name" required> <input type="email" name="email"
+                        placeholder="Your Email" required> <textarea name="message"
+                        placeholder="Your Message / Project Details" rows="6" required></textarea> <button type="submit"
+                        class="btn primary-btn fade-in-up">Send Message</button> </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">© 2025 <span>Abdul Samad Developer.</span> All Rights Reserved.</p>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
